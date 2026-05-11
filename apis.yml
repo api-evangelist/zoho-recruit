@@ -1,0 +1,58 @@
+aid: zoho-recruit
+name: Zoho Recruit
+description: >-
+  Zoho Recruit is an end-to-end applicant tracking system (ATS) and recruitment
+  CRM for staffing agencies, corporate HR teams, and recruiters, covering job
+  posting, candidate sourcing, interview scheduling, and hiring workflows. The
+  Zoho Recruit v2 REST API exposes candidates, contacts, clients, jobs,
+  interviews, and custom modules for full programmatic recruiting integrations.
+  Authentication uses Zoho OAuth 2.0 with domain-specific endpoints (.com, .eu,
+  .in, .com.au, .com.cn, .jp).
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Applicant Tracking System
+  - ATS
+  - Recruiting
+  - Recruitment CRM
+  - HR
+  - Zoho
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: zoho-recruit:rest-api-v2
+    name: Zoho Recruit REST API v2
+    description: >-
+      REST API for managing candidates, contacts, clients, job openings,
+      interviews, attachments, notes, and custom modules in Zoho Recruit.
+      Requests are authenticated with OAuth 2.0 tokens issued by the
+      domain-specific Zoho Accounts service.
+    humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
+    baseURL: https://recruit.zoho.com/recruit/v2
+    tags:
+      - Applicant Tracking System
+      - Recruiting
+      - Candidates
+      - OAuth 2.0
+    properties:
+      - type: Documentation
+        url: https://www.zoho.com/recruit/developer-guide/apiv2/
+      - type: OAuth Overview
+        url: https://www.zoho.com/recruit/developer-guide/apiv2/oauth-overview.html
+      - type: What's New
+        url: https://www.zoho.com/recruit/developer-guide/apiv2/whats-new.html
+common:
+  - type: Website
+    url: https://www.zoho.com/recruit/
+  - type: Documentation
+    url: https://www.zoho.com/recruit/developer-guide/apiv2/
+  - type: Pricing
+    url: https://www.zoho.com/recruit/zoho-recruit-pricing.html
+  - type: Sign Up
+    url: https://www.zoho.com/recruit/signup.html
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
