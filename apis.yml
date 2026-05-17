@@ -51,7 +51,7 @@ common:
     url: https://www.zoho.com/recruit/developer-guide/apiv2/
   - type: Pricing
     url: https://www.zoho.com/recruit/zoho-recruit-pricing.html
-  - type: Sign Up
+  - type: SignUp
     url: https://www.zoho.com/recruit/signup.html
 maintainers:
   - FN: Kin Lane
