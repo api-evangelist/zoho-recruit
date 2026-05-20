@@ -45,6 +45,10 @@ apis:
       - type: What's New
         url: https://www.zoho.com/recruit/developer-guide/apiv2/whats-new.html
 common:
+  - type: GitHubOrganization
+    url: https://github.com/zoho
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/zohorecruit
   - type: Website
     url: https://www.zoho.com/recruit/
   - type: Documentation
