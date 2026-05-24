@@ -1,0 +1,49 @@
+openapi: 3.1.0
+info:
+  title: Zoho Recruit API
+  description: REST API for Zoho Recruit modules including Candidates and Job Openings.
+  version: v2
+servers:
+  - url: https://recruit.zoho.com/recruit/v2
+    description: Production
+security:
+  - ZohoOAuth: []
+paths:
+  /Candidates:
+    post:
+      summary: Insert candidate records
+      operationId: insertCandidates
+      description: A maximum of 100 records can be inserted per API call.
+      responses:
+        '201':
+          description: Created
+  /Job_Openings:
+    post:
+      summary: Insert job opening records
+      operationId: insertJobOpenings
+      description: A maximum of 100 records can be inserted per API call.
+      responses:
+        '201':
+          description: Created
+  /{module_api_name}:
+    parameters:
+      - name: module_api_name
+        in: path
+        required: true
+        schema:
+          type: string
+        description: API name of a Recruit module (e.g., Interviews, Clients, Contacts, Departments, Tasks, Events, Vendors, or a custom module).
+    post:
+      summary: Insert records into a module
+      operationId: insertModuleRecords
+      description: A maximum of 100 records can be inserted per API call.
+      responses:
+        '201':
+          description: Created
+components:
+  securitySchemes:
+    ZohoOAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: OAuth 2.0 access token sent as 'Authorization: Zoho-oauthtoken {access_token}'.
