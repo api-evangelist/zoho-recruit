@@ -42,7 +42,7 @@ apis:
         url: https://www.zoho.com/recruit/developer-guide/apiv2/
       - type: OAuth Overview
         url: https://www.zoho.com/recruit/developer-guide/apiv2/oauth-overview.html
-      - type: What's New
+      - type: ReleaseNotes
         url: https://www.zoho.com/recruit/developer-guide/apiv2/whats-new.html
 common:
   - type: GitHubOrganization
@@ -55,7 +55,7 @@ common:
     url: https://www.zoho.com/recruit/developer-guide/apiv2/
   - type: Pricing
     url: https://www.zoho.com/recruit/zoho-recruit-pricing.html
-  - type: SignUp
+  - type: Signup
     url: https://www.zoho.com/recruit/signup.html
 maintainers:
   - FN: Kin Lane
