@@ -45,6 +45,10 @@ apis:
       - type: ReleaseNotes
         url: https://www.zoho.com/recruit/developer-guide/apiv2/whats-new.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/zoho-recruit-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/zoho-recruit-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/zoho
   - type: LinkedIn
@@ -57,6 +61,8 @@ common:
     url: https://www.zoho.com/recruit/zoho-recruit-pricing.html
   - type: Signup
     url: https://www.zoho.com/recruit/signup.html
+  - url: https://www.zoho.com/recruit/blog/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
