@@ -34,27 +34,56 @@ created: '2026-05-11'
 modified: '2026-05-11'
 specificationVersion: '0.19'
 apis:
-  - aid: zoho-recruit:rest-api-v2
-    name: Zoho Recruit REST API v2
-    description: >-
-      REST API for managing candidates, contacts, clients, job openings,
-      interviews, attachments, notes, and custom modules in Zoho Recruit.
-      Requests are authenticated with OAuth 2.0 tokens issued by the
-      domain-specific Zoho Accounts service.
-    humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
-    baseURL: https://recruit.zoho.com/recruit/v2
-    tags:
-      - Applicant Tracking System
-      - Recruiting
-      - Candidates
-      - OAuth 2.0
-    properties:
-      - type: Documentation
-        url: https://www.zoho.com/recruit/developer-guide/apiv2/
-      - type: OAuth Overview
-        url: https://www.zoho.com/recruit/developer-guide/apiv2/oauth-overview.html
-      - type: ReleaseNotes
-        url: https://www.zoho.com/recruit/developer-guide/apiv2/whats-new.html
+- aid: zoho-recruit:rest-api-v2
+  name: Zoho Recruit REST API v2
+  description: >-
+    REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes,
+    and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the
+    domain-specific Zoho Accounts service.
+  humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
+  baseURL: https://recruit.zoho.com/recruit/v2
+  tags:
+  - Applicant Tracking System
+  - Recruiting
+  - Candidates
+  - OAuth 2.0
+  properties:
+  - type: Documentation
+    url: https://www.zoho.com/recruit/developer-guide/apiv2/
+  - type: OAuth Overview
+    url: https://www.zoho.com/recruit/developer-guide/apiv2/oauth-overview.html
+  - type: ReleaseNotes
+    url: https://www.zoho.com/recruit/developer-guide/apiv2/whats-new.html
+- aid: zoho-recruit:zoho-recruit-candidates-api
+  name: Zoho Recruit Candidates API
+  description: The Candidates API from Zoho Recruit — 1 operation(s) for candidates.
+  humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
+  baseURL: https://recruit.zoho.com/recruit/v2
+  tags:
+  - Candidates
+  properties:
+  - type: OpenAPI
+    url: openapi/zoho-recruit-candidates-api-openapi.yml
+- aid: zoho-recruit:zoho-recruit-job-openings-api
+  name: Zoho Recruit Job Openings API
+  description: The Job Openings API from Zoho Recruit — 1 operation(s) for job openings.
+  humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
+  baseURL: https://recruit.zoho.com/recruit/v2
+  tags:
+  - Job Openings
+  properties:
+  - type: OpenAPI
+    url: openapi/zoho-recruit-job-openings-api-openapi.yml
+- aid: zoho-recruit:zoho-recruit-zoho-recruit-api-api
+  name: Zoho Recruit Zoho Recruit API API
+  description: The Zoho Recruit API API from Zoho Recruit — 1 operation(s) for zoho recruit api.
+  humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
+  baseURL: https://recruit.zoho.com/recruit/v2
+  tags:
+  - Zoho Recruit API
+  properties:
+  - type: OpenAPI
+    url: openapi/zoho-recruit-zoho-recruit-api-api-openapi.yml
 common:
   - type: VulnerabilityDisclosure
     url: security/zoho-recruit-vulnerability-disclosure.yml
