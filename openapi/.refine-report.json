@@ -1,0 +1,23 @@
+{
+  "provider": "zoho-recruit",
+  "sources": [
+    "zoho-recruit-candidates-api-openapi.yml",
+    "zoho-recruit-job-openings-api-openapi.yml",
+    "zoho-recruit-zoho-recruit-api-api-openapi.yml"
+  ],
+  "outputs": [
+    "zoho-recruit-candidates-api-openapi.yml",
+    "zoho-recruit-job-openings-api-openapi.yml",
+    "zoho-recruit-zoho-recruit-api-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "zoho-recruit-candidates-api-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "zoho-recruit-job-openings-api-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "zoho-recruit-zoho-recruit-api-api-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": []
+}

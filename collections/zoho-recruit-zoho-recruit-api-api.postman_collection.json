@@ -1,0 +1,133 @@
+{
+  "item": [
+    {
+      "id": "86bf7bf8-15a0-4f55-9f45-24b6412cd2ec",
+      "name": "Zoho Recruit API",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "5486f170-e501-4e47-a237-e68a11bed48e",
+          "name": "Insert records into a module",
+          "request": {
+            "name": "Insert records into a module",
+            "description": {
+              "content": "A maximum of 100 records can be inserted per API call.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                ":module_api_name"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "module_api_name",
+                  "description": "(Required) API name of a Recruit module (e.g., Interviews, Clients, Contacts, Departments, Tasks, Events, Vendors, or a custom module)."
+                }
+              ]
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "bc4737bf-49b0-4c2e-839e-f20e21f31189",
+              "name": "Created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    ":module_api_name"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<string>",
+                      "key": "module_api_name",
+                      "description": "(Required) API name of a Recruit module (e.g., Interviews, Clients, Contacts, Departments, Tasks, Events, Vendors, or a custom module)."
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<API Key>"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Created",
+              "code": 201,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://recruit.zoho.com/recruit/v2",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "Authorization"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}"
+      },
+      {
+        "key": "in",
+        "value": "header"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "cc044267-8ff1-4845-b26f-6291e443f92d",
+    "name": "Zoho Recruit Zoho Recruit API API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "REST API for Zoho Recruit modules including Candidates and Job Openings.",
+      "type": "text/plain"
+    }
+  }
+}

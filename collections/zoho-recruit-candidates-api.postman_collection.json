@@ -1,0 +1,117 @@
+{
+  "item": [
+    {
+      "id": "54e99804-621f-41a9-bebf-ef244ab56c39",
+      "name": "Candidates",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "ba2a103c-ac31-4edf-8838-1701f0c33148",
+          "name": "Insert candidate records",
+          "request": {
+            "name": "Insert candidate records",
+            "description": {
+              "content": "A maximum of 100 records can be inserted per API call.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "Candidates"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "17c5f04f-d830-4ba6-80aa-10e371715c9d",
+              "name": "Created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "Candidates"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<API Key>"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Created",
+              "code": 201,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://recruit.zoho.com/recruit/v2",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "Authorization"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}"
+      },
+      {
+        "key": "in",
+        "value": "header"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "f7c2ad39-21fb-4a42-930c-de8a4819c8c3",
+    "name": "Zoho Recruit Candidates API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "REST API for Zoho Recruit modules including Candidates and Job Openings.",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "item": [
+    {
+      "id": "678d3f1c-4b73-4dfd-a1a1-1bbda8b0b1d1",
+      "name": "Job Openings",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "8103c4bf-f962-4b11-b584-862a79758981",
+          "name": "Insert job opening records",
+          "request": {
+            "name": "Insert job opening records",
+            "description": {
+              "content": "A maximum of 100 records can be inserted per API call.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                "Job_Openings"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "POST",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "b54890ac-21da-4fb5-8dc1-1ba91e46743d",
+              "name": "Created",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    "Job_Openings"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": []
+                },
+                "header": [
+                  {
+                    "description": {
+                      "content": "Added as a part of security scheme: apikey",
+                      "type": "text/plain"
+                    },
+                    "key": "Authorization",
+                    "value": "<API Key>"
+                  }
+                ],
+                "method": "POST",
+                "body": {}
+              },
+              "status": "Created",
+              "code": 201,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "text/plain"
+                }
+              ],
+              "body": "",
+              "cookie": [],
+              "_postman_previewlanguage": "text"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://recruit.zoho.com/recruit/v2",
+      "key": "baseUrl"
+    }
+  ],
+  "auth": {
+    "type": "apikey",
+    "apikey": [
+      {
+        "key": "key",
+        "value": "Authorization"
+      },
+      {
+        "key": "value",
+        "value": "{{apiKey}}"
+      },
+      {
+        "key": "in",
+        "value": "header"
+      }
+    ]
+  },
+  "info": {
+    "_postman_id": "cdb9b9a0-1b43-4053-90f5-0d41fbb44314",
+    "name": "Zoho Recruit Job Openings API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "REST API for Zoho Recruit modules including Candidates and Job Openings.",
+      "type": "text/plain"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Zoho Recruit Job Openings API",
+    "version": "v2"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "Authorization",
+      "value": "{{Authorization}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Job Openings",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Insert job opening records",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://recruit.zoho.com/recruit/v2/Job_Openings"
+          },
+          "docs": "A maximum of 100 records can be inserted per API call."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

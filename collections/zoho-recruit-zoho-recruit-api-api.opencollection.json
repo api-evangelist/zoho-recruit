@@ -1,0 +1,45 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Zoho Recruit Zoho Recruit API API",
+    "version": "v2"
+  },
+  "request": {
+    "auth": {
+      "type": "apikey",
+      "key": "Authorization",
+      "value": "{{Authorization}}",
+      "placement": "header"
+    }
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Zoho Recruit API",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "Insert records into a module",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://recruit.zoho.com/recruit/v2/:module_api_name",
+            "params": [
+              {
+                "name": "module_api_name",
+                "value": "",
+                "type": "path",
+                "description": "API name of a Recruit module (e.g., Interviews, Clients, Contacts, Departments, Tasks, Events, Vendors, or a custom module)."
+              }
+            ]
+          },
+          "docs": "A maximum of 100 records can be inserted per API call."
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
