@@ -22,6 +22,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoho-recruit.png
 tags:
+  - ATS
+  - Recruiting
+  - Recruitment CRM
+  - HR
+  - Zoho
+tags_raw:
   - Applicant Tracking System
   - ATS
   - Recruiting
@@ -43,6 +49,11 @@ apis:
   humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
   baseURL: https://recruit.zoho.com/recruit/v2
   tags:
+  - ATS
+  - Recruiting
+  - Candidates
+  - Authentication
+  tags_raw:
   - Applicant Tracking System
   - Recruiting
   - Candidates
