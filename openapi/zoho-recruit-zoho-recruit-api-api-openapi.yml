@@ -1,6 +1,6 @@
 openapi: 3.2.0
 info:
-  title: Zoho Recruit Zoho Recruit API API
+  title: Zoho Recruit API
   description: REST API for Zoho Recruit modules including Candidates and Job Openings.
   version: v2
 servers:
