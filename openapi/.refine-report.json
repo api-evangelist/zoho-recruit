@@ -1,9 +1,7 @@
 {
   "provider": "zoho-recruit",
   "sources": [
-    "zoho-recruit-candidates-api-openapi.yml",
-    "zoho-recruit-job-openings-api-openapi.yml",
-    "zoho-recruit-zoho-recruit-api-api-openapi.yml"
+    "_original/zoho-recruit-openapi.yml"
   ],
   "outputs": [
     "zoho-recruit-candidates-api-openapi.yml",
@@ -14,7 +12,19 @@
   "errors": [],
   "warnings": [],
   "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "zoho-recruit-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "zoho-recruit-openapi.yml: tagged paths POST /Candidates -> Candidates",
+    "zoho-recruit-openapi.yml: tagged paths POST /Job_Openings -> Job Openings",
+    "zoho-recruit-openapi.yml: tagged paths POST /{module_api_name} -> Zoho Recruit API",
+    "zoho-recruit-openapi.yml: declared missing tag: Candidates",
+    "zoho-recruit-openapi.yml: declared missing tag: Job Openings",
+    "zoho-recruit-openapi.yml: declared missing tag: Zoho Recruit API",
     "apis.yml register: already-registered"
   ],
-  "skipped": []
+  "skipped": [
+    "zoho-recruit-candidates-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "zoho-recruit-job-openings-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "zoho-recruit-zoho-recruit-api-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
