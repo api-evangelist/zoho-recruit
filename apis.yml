@@ -31,7 +31,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zoho-recruit.png
 tags:
-- ATS
+- Applicant Tracking
 - Recruiting
 - Recruitment CRM
 - Human Resources
@@ -56,7 +56,7 @@ apis:
   humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
   baseURL: https://recruit.zoho.com/recruit/v2
   tags:
-  - ATS
+  - Applicant Tracking
   - Recruiting
   - Candidates
   - Authentication
@@ -65,6 +65,7 @@ apis:
   - Recruiting
   - Candidates
   - OAuth 2.0
+  - ATS
   properties:
   - type: Documentation
     url: https://www.zoho.com/recruit/developer-guide/apiv2/
