@@ -104,6 +104,9 @@ apis:
   - type: OpenAPI
     url: openapi/zoho-recruit-zoho-recruit-api-api-openapi.yml
 common:
+- type: CapabilityMap
+  url: capabilities/zoho-recruit-capability-edges.yml
+  name: Zoho Recruit Business Capability Map
 - type: VulnerabilityDisclosure
   url: security/zoho-recruit-vulnerability-disclosure.yml
 - type: DomainSecurity

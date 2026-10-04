@@ -1,0 +1,35 @@
+slug: zoho-recruit
+provider: Zoho Recruit
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 2
+edges:
+- tag: Candidates
+  spec_file: zoho-recruit-candidates-api-openapi.yml
+  capability_id: BC-300.10
+  capability_id_l1: BC-300
+  capability_name: Talent Acquisition Management
+  confidence: 0.93
+  evidence: POST /Candidates insertCandidates 'Insert candidate records' in an 'applicant tracking system
+    (ATS) and recruitment CRM'
+  reason: Candidate record management in an ATS is Talent Acquisition Management (sourcing, recruiting,
+    hiring).
+- tag: Job Openings
+  spec_file: zoho-recruit-job-openings-api-openapi.yml
+  capability_id: BC-300.10
+  capability_id_l1: BC-300
+  capability_name: Talent Acquisition Management
+  confidence: 0.85
+  evidence: POST /Job_Openings  insertJobOpenings  Insert job opening records — "end-to-end applicant
+    tracking system (ATS) and recruitment CRM"
+  reason: Creating job requisition/opening records in an ATS is core sourcing/recruiting work, i.e. Talent
+    Acquisition Management within Human Capital Management.
