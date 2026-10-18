@@ -89,6 +89,8 @@ apis:
   humanURL: https://www.zoho.com/recruit/developer-guide/apiv2/
   baseURL: https://recruit.zoho.com/recruit/v2
   tags:
+  - Job Postings
+  tags_raw:
   - Job Openings
   properties:
   - type: OpenAPI
