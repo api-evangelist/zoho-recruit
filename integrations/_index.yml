@@ -78,5 +78,5 @@
     - connectors/applications/zoho-recruit
     vendor_link: https://www.zoho.com/recruit
     builder: Fivetran
-  status: pending-generation
+  status: not-a-workflow
   arazzo: null
