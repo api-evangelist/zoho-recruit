@@ -1,4 +1,4 @@
-# Zoho Recruit (zoho-recruit)
+# Zoho Recruit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,58 +66,97 @@
 
 Zoho Recruit is an end-to-end applicant tracking system (ATS) and recruitment CRM for staffing agencies, corporate HR teams, and recruiters, covering job posting, candidate sourcing, interview scheduling, and hiring workflows. The Zoho Recruit v2 REST API exposes candidates, contacts, clients, jobs, interviews, and custom modules for full programmatic recruiting integrations. Authentication uses Zoho OAuth 2.0 with domain-specific endpoints (.com, .eu, .in, .com.au, .com.cn, .jp).
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/apis.yml)
+**Areas:** Applicant Tracking · Recruiting · Recruitment CRM · Human Resources · Zoho
 
-## Scope
+## Zoho Recruit on APIs.io
 
-- **Type:** Index
+Everything profiled for Zoho Recruit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zoho-recruit/](https://apis.io/providers/zoho-recruit/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (4)
 
-- Applicant Tracking System
-- ATS
-- Recruiting
-- Recruitment CRM
-- HR
-- Zoho
+- [Zoho Recruit REST API v2](https://apis.io/apis/zoho-recruit/rest-api-v2/) — REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are…
+- [Zoho Recruit Candidates API](https://apis.io/apis/zoho-recruit/zoho-recruit-candidates-api/) — The Candidates API from Zoho Recruit — 1 operation(s) for candidates.
+- [Zoho Recruit Job Openings API](https://apis.io/apis/zoho-recruit/zoho-recruit-job-openings-api/) — The Job Openings API from Zoho Recruit — 1 operation(s) for job openings.
+- [Zoho Recruit Zoho Recruit API](https://apis.io/apis/zoho-recruit/zoho-recruit-zoho-recruit-api-api/) — The Zoho Recruit API API from Zoho Recruit — 1 operation(s) for zoho recruit api.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-05-11
-- **Modified:** 2026-05-11
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Collections (3)
 
-### Zoho Recruit REST API v2
+Postman and Open Collection request collections.
 
-REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the domain-specific Zoho Accounts service.
+- [Zoho Recruit Candidates API](https://apis.io/collections/zoho-recruit/open-zoho-recruit-candidates-api/)
+- [Zoho Recruit Job Openings API](https://apis.io/collections/zoho-recruit/open-zoho-recruit-job-openings-api/)
+- [Zoho Recruit Zoho Recruit API API](https://apis.io/collections/zoho-recruit/open-zoho-recruit-zoho-recruit-api-api/)
 
-- **Human URL:** [https://www.zoho.com/recruit/developer-guide/apiv2/](https://www.zoho.com/recruit/developer-guide/apiv2/)
-- **Base URL:** `https://recruit.zoho.com/recruit/v2`
+#### Security (2)
 
-#### Tags
+Authentication, trust centre, and vulnerability disclosure.
 
-- Applicant Tracking System
-- Recruiting
-- Candidates
-- OAuth 2.0
+- [Zoho Recruit Domain Security](https://apis.io/security/zoho-recruit/zoho-recruit-domain-security/)
+- [Zoho Recruit Vulnerability Disclosure](https://apis.io/security/zoho-recruit/zoho-recruit-vulnerability-disclosure/)
 
-#### Properties
+## Where to find this API
 
-- [Documentation](https://www.zoho.com/recruit/developer-guide/apiv2/)
-- [O Auth  Overview](https://www.zoho.com/recruit/developer-guide/apiv2/oauth-overview.html)
-- [What's  New](https://www.zoho.com/recruit/developer-guide/apiv2/whats-new.html)
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
-
-- [GitHub Organization](https://github.com/zoho)
-- [LinkedIn](https://www.linkedin.com/company/zohorecruit)
 - [Website](https://www.zoho.com/recruit/)
 - [Documentation](https://www.zoho.com/recruit/developer-guide/apiv2/)
 - [Pricing](https://www.zoho.com/recruit/zoho-recruit-pricing.html)
-- [Sign Up](https://www.zoho.com/recruit/signup.html)
+- [Blog](https://www.zoho.com/recruit/blog/feed/)
+- [GitHub](https://github.com/zoho)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 23.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 46.5 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 13.2 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zoho-recruit/](https://apis.io/providers/zoho-recruit/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zoho Recruit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/zoho-recruit/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
